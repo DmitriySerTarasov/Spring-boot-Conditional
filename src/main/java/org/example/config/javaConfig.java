@@ -7,14 +7,10 @@ import org.springframework.context.annotation.Bean;
 
 public class javaConfig {
     @Bean
-    public SystemProfile DevProfile() {
-
         return new DevProfile();
     }
 
     @Bean
-    public SystemProfile ProdProfile() {
-
     return new ProductionProfile();
     }
 }
